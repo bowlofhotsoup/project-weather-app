@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form class="form">
+        <input type="text" id="location" name="location" placeholder="Enter a location">
+        <button type="submit" id="fetch-btn">Fetch</button>
+    </form>
+
+    <div class="container">
+        <div id="current">
+            <div class="current-location"></div>
+            <div class="current-temp"></div>
+            <div class="current-condition"></div>
+        </div>
+        <p class="forecast-title">3-Day Forecast</p>
+        <div id="forecast">
+            <div class="forecast-day">
+                <div class="forecast-date"></div>
+                <div class="forecast-condition"></div> 
+                <div class="forecast-temp-min"></div>
+                <div class="forecast-temp-max"></div>
+            </div>
+
+            <div class="forecast-day">
+                <div class="forecast-date"></div>
+                <div class="forecast-condition"></div> 
+                <div class="forecast-temp-min"></div>
+                <div class="forecast-temp-max"></div>
+            </div>
+
+            <div class="forecast-day">
+                <div class="forecast-date"></div>
+                <div class="forecast-condition"></div> 
+                <div class="forecast-temp-min"></div>
+                <div class="forecast-temp-max"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
